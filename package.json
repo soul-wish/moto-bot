@@ -1,0 +1,36 @@
+{
+  "name": "moto-bot",
+  "version": "0.1.0",
+  "description": "Awesome Moto Bot!",
+  "license": "MIT",
+  "repository": "soul-wish/moto-bot",
+  "author": {
+    "name": "Sergey Lysenko",
+    "email": "soulwish.ls@gmail.com",
+    "url": "soulwish.info"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "motocms",
+    "discord",
+    "bot",
+    "moto",
+    "ai"
+  ],
+  "dependencies": {
+    "discord.js": "^9.3.0"
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-plugin-import": "*",
+    "eslint-config-airbnb-base": "*"
+  }
+}
